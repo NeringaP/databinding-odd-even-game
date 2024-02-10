@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'databinding-odd-even-game';
+  numberList = [];
+
+  getNumber(newNumber: number) {
+    this.numberList.push(newNumber);
+  }
 }
